@@ -1,0 +1,12 @@
+Source: ros-indigo-allocators
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/allocators
+Standards-Version: 3.9.2
+
+Package: ros-indigo-allocators
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: Contains aligned allocation functions, as well as an STL-compatible AlignedAllocator class.
