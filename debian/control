@@ -1,0 +1,12 @@
+Source: ros-indigo-lockfree
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-allocators, ros-indigo-catkin, ros-indigo-rosatomic, ros-indigo-rosconsole, ros-indigo-roslib
+Homepage: http://ros.org/wiki/lockfree
+Standards-Version: 3.9.2
+
+Package: ros-indigo-lockfree
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-allocators, ros-indigo-rosatomic, ros-indigo-rosconsole, ros-indigo-roslib
+Description: The lockfree package contains lock-free data structures for use in multithreaded programming. These kinds of data structures are generally not as easy to use as single-threaded equivalents, and are not always faster. If you don't know you need to use one, try another structure with a lock around it first.
