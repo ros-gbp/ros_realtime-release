@@ -1,0 +1,12 @@
+Source: ros-indigo-ros-realtime
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-ros-realtime
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-allocators, ros-indigo-lockfree, ros-indigo-rosatomic, ros-indigo-rosrt
+Description: The ros_realtime package
