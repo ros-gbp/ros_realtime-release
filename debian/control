@@ -1,0 +1,12 @@
+Source: ros-indigo-rosrt
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-allocators, ros-indigo-catkin, ros-indigo-lockfree, ros-indigo-rosatomic, ros-indigo-roscpp, ros-indigo-roslib, ros-indigo-rosunit, ros-indigo-std-msgs
+Homepage: http://ros.org/wiki/rosrt
+Standards-Version: 3.9.2
+
+Package: ros-indigo-rosrt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-allocators, ros-indigo-lockfree, ros-indigo-rosatomic, ros-indigo-roscpp, ros-indigo-roslib, ros-indigo-rosunit, ros-indigo-std-msgs
+Description: rosrt provides classes for interfacing with ROS from within realtime systems, such as realtime-safe Publisher and Subscriber classes.
