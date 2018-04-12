@@ -1,0 +1,12 @@
+Source: ros-kinetic-rosrt
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-allocators, ros-kinetic-catkin, ros-kinetic-lockfree, ros-kinetic-rosatomic, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-rosunit, ros-kinetic-std-msgs
+Homepage: http://ros.org/wiki/rosrt
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-rosrt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-allocators, ros-kinetic-lockfree, ros-kinetic-rosatomic, ros-kinetic-roscpp, ros-kinetic-roslib, ros-kinetic-rosunit, ros-kinetic-std-msgs
+Description: rosrt provides classes for interfacing with ROS from within realtime systems, such as realtime-safe Publisher and Subscriber classes.
