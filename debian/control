@@ -1,0 +1,12 @@
+Source: ros-melodic-ros-realtime
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-ros-realtime
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-allocators, ros-melodic-lockfree, ros-melodic-rosatomic, ros-melodic-rosrt
+Description: The ros_realtime package
