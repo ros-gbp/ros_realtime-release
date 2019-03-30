@@ -1,0 +1,12 @@
+Source: ros-lunar-ros-realtime
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-lunar-ros-realtime
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-allocators, ros-lunar-lockfree, ros-lunar-rosatomic, ros-lunar-rosrt
+Description: The ros_realtime package
