@@ -1,0 +1,12 @@
+Source: ros-lunar-rosrt
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-allocators, ros-lunar-catkin, ros-lunar-lockfree, ros-lunar-rosatomic, ros-lunar-roscpp, ros-lunar-roslib, ros-lunar-rosunit, ros-lunar-std-msgs
+Homepage: http://ros.org/wiki/rosrt
+Standards-Version: 3.9.2
+
+Package: ros-lunar-rosrt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-allocators, ros-lunar-lockfree, ros-lunar-rosatomic, ros-lunar-roscpp, ros-lunar-roslib, ros-lunar-rosunit, ros-lunar-std-msgs
+Description: rosrt provides classes for interfacing with ROS from within realtime systems, such as realtime-safe Publisher and Subscriber classes.
