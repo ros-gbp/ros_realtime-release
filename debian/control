@@ -1,0 +1,12 @@
+Source: ros-melodic-rosrt
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-allocators, ros-melodic-catkin, ros-melodic-lockfree, ros-melodic-rosatomic, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-rosunit, ros-melodic-std-msgs
+Homepage: http://ros.org/wiki/rosrt
+Standards-Version: 3.9.2
+
+Package: ros-melodic-rosrt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-allocators, ros-melodic-lockfree, ros-melodic-rosatomic, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-rosunit, ros-melodic-std-msgs
+Description: rosrt provides classes for interfacing with ROS from within realtime systems, such as realtime-safe Publisher and Subscriber classes.
