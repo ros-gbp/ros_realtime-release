@@ -1,0 +1,12 @@
+Source: ros-noetic-rosrt
+Section: misc
+Priority: optional
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-allocators, ros-noetic-catkin, ros-noetic-lockfree, ros-noetic-rosatomic, ros-noetic-roscpp, ros-noetic-roslib, ros-noetic-rosunit, ros-noetic-std-msgs
+Homepage: http://ros.org/wiki/rosrt
+Standards-Version: 3.9.2
+
+Package: ros-noetic-rosrt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-allocators, ros-noetic-lockfree, ros-noetic-rosatomic, ros-noetic-roscpp, ros-noetic-roslib, ros-noetic-rosunit, ros-noetic-std-msgs
+Description: rosrt provides classes for interfacing with ROS from within realtime systems, such as realtime-safe Publisher and Subscriber classes.
